@@ -1,11 +1,12 @@
 
 
-.container {background-color: #19334d;
+.container {
   color: white;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: solid white 1px;
 }
 
 .text {

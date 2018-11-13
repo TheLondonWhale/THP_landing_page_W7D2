@@ -11,16 +11,6 @@
   box-shadow: 1px 1px 60px #C9C9C9;
 }
 
-
-
-.price {
-  color: grey;
-  font-size: 24px;
-  font-family: 'Oswald', sans-serif;
-  display: flex;
-  justify-content: center;
-}
-
 .category {
       font-family: 'Oswald', sans-serif;
       font-size: 22px;
@@ -39,7 +29,8 @@
 .card img {
   border-radius: 2px;
 }
-.card button {
+
+.black_button {
   border: none;
   outline: 0;
   padding: 12px;
@@ -47,13 +38,13 @@
   background-color: #262626;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: auto;
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
   border-radius: 2px;
 }
 
-.card button:hover {
+ .black_button:hover {
   opacity: 0.90;
 }
 
@@ -63,6 +54,6 @@
 }
 
 .card a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
 }
