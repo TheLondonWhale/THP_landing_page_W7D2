@@ -1,0 +1,47 @@
+.tabs
+{
+	clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+
+.tabs .tab .content
+{
+	background-color: #e6e6e6;
+	width: auto;
+	border: none;
+	display: none;
+}
+
+.checkboxtab
+{
+	display: none;
+
+}
+
+.tab label
+{
+	display: flex;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+}
+
+.checkboxtab:checked ~ label
+{
+	color: white;
+	border: 1px white solid;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+}
+
+.checkboxtab:checked ~ .content
+{
+	z-index: 1;
+	border-radius: 10px;
+	display: block;
+}

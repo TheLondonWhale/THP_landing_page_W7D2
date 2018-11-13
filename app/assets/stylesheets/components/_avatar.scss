@@ -17,7 +17,7 @@
   display: none;
   position: absolute;
   background-color: #393e46;
-  width: 100px;
+  width: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 5%;
@@ -32,10 +32,11 @@
   align-items: center;
   flex-direction: column;
   border-radius: 5%;
+  font-family: 'Oswald', sans-serif;
 }
 
 .dropdown-content a:hover {
-  background-color: #f8b500;
+  background-color: #F8FBF7;
   color: #393e46;
 }
 
