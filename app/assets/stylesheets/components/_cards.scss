@@ -1,0 +1,74 @@
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.price {
+  color: grey;
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.category {
+      font-family: 'Oswald', sans-serif;
+      font-size: 22px;
+}
+
+.card h4 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+}
+
+.card p {
+      font-family: 'Oswald', sans-serif;
+      font-size: 16px;
+}
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: white;
+}

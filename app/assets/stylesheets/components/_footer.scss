@@ -1,0 +1,35 @@
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #343C44;
+  color: white;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+footer li {
+  list-style: none;
+  padding: 5px;
+}
+
+footer img {
+    border-radius: 50%;
+    height: 30px;
+    width: auto;
+    background-color: white;
+}
+
+footer img:hover {
+  box-shadow: 2px 2px 2px 2px rgba(255, 228, 107, 1), 2px 2px 2px 2px rgba(0, 0, 0, 0);
+}
